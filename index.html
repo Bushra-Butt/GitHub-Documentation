@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Documentation</title>
+</head>
+<body>
+    <h1>GitHub Documentation</h1>
+    <h2>git init </h2>
+    <p>It is used to initialize a empty git repository in your specified folder (project folder)</p>
+    <img src="./static/images/Gitinit1.jpg">
+    <h2>git status</h2>
+    <p>The git status command shows the current condition of the working directory and staging area.</p>
+    <p>It shows you which modifications have been staged and that have not yet, as well as which files are not being monitored by Git.</p>
+    <p>The status output provides no information about the committed project history. </p>
+    <img src="./static/images/GitStatus.jpg">
+    <h3>git status --short</h3>
+    <p>Short status flags are:
+        ?? - Untracked files
+        A - Files added to stage
+        M - Modified files
+        D - Deleted files
+    </p>
+    <img src="./static/images/GitStatusShort.jpg">
+    <h2>git add</h2>
+    <p>The git add command adds a change in the working directory to the staging area. </p>
+    <p>It notifies Git that you wish to include changes to a certain file in the next commit. </p>
+    <p>git add has no effect on the repository since changes are not truly recorded until you execute git commit.</p>
+    <h3>git add .</h3>
+    <p>Add all the files of the current working directory</p>
+    <img src="">
+    <h2>git rm</h2>
+    <p>The git rm command removes a file or group of files from a Git repository.</p>
+    <p>A file is removed from both your machine and the Git repository. To preserve the file on your local machine, use the –cached flag.</p>
+    <img src="">
+    <h2>git rm –cached</h2>
+    <p>The Git rm –cached flag removes a file from the staging area. </p>
+    <p>The files from the working directory will remain intact. This means that you’ll still have a copy of the file locally. The file will be removed from the index tracking your Git project. </p>
+    <img src="">
+    <h2>git clone</h2>
+    <p>Git clone is generally used to point to an existing repository and create a clone or duplicate of that repository in a different directory.
+        The original repository might be on the local filesystem or on a remote computer that supports the relevant protocols.
+        The git clone command duplicates an already existing Git repository. </p>
+    <img src="">
+    <h2>git commit -m</h2>
+    <p>A commit is an operation which sends the latest changes of the source code to the repository, making these changes part of the head revision of the repository.</p>
+    <p>When we commit, we should always include a message.
+    By adding clear messages to each commit, it is easy for yourself (and others) to see what has changed and when</p>
+    <p>It is possible to commit changes directly, skipping the staging environment. The -a option will automatically stage every changed, already tracked file.</p>
+    <img src="">
+    <h2>git Push</h2>
+    <p>The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo</p>
+    <img src="">
+    <h2>git Pull</h2>
+    <p>The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.</p>
+    <img src="">
+    <h2>Merge Conflict</h2>
+    <p> A merge conflict is an event that takes place when Git is unable to automatically resolve differences in code between two commits</p> 
+    <p>Git can merge the changes automatically only if the commits are on different lines or branches but in merge conflict it is on same line so you have to tell which line you want to keep</p>
+    <img src="">
+    <h2>git branch</h2>
+    <p>The git branch command allows you to create, list, rename and delete branches. Many operations on branches are applied by git checkout and git merge command.</p>
+    <p>This command show the current branch in which you are working</p>
+    <img src="">
+    <h2>git checkout</h2>
+    <p>The git checkout command lets you navigate between the branches created by git branch . Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.</p>
+    <h3>git checkout -b (if you want to create a branch and checkout the branch simultaneously)</h3>
+    <p>The easiest way to create a Git branch is to use the “git checkout” command with the “-b” option for a new branch. Next, you just have to specify the name for the branch you want to create. 
+    To achieve that, you will run the “git checkout” command with the “-b” option and add “feature” as the branch name.</p>
+    <img src="">
+    <h2>Creating a Branch from Another Branch</h2>
+    <img src="">
+    <h2>git merge</h2>
+    <p>Merge different branches</p>
+    <p>Join two or more development histories together</p>
+    <p>Merge branch into a Main branch after changes has committed</p>
+    <img src="">
+    <h2>Delete Branch</h2>
+    <p>git branch -D branchName used to delete the branch</p>
+    <img src="">
+    <h1>Github</h1>
+    <h2>Signup</h2>
+    <p>Fill All Neccessary form for Signup</p>
+    <img src="./static/images/SIGNUP2.PNG" alt="Signup Form" style="width: 549px;
+    height: 291px;">
+    <h2>LogIn</h2>
+    <img src="./static/images/Login.jpg" alt="Login Form" >
+    <h2>Explore</h2>
+    <img src="./static/images/Explore.jpg" alt="Explore" >
+    <h2>Notification</h2>
+    <img src="./static/images/Explore.jpg" alt="Explore">
+    <h2>How to create repository</h2>
+    <img src="./static/images/CreateNew1.jpg" alt="Create Repo 1" >
+    <img src="./static/images/CreateNew2.jpg" alt="Create Repo 2">
+    <img src="./static/images/CreateNew3.jpg" alt="Create Repo 3">
+    <h2>Edit File At Repo GitHub directly</h2>
+    <img src="">
+
+
+</body>
+</html>
