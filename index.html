@@ -57,16 +57,35 @@
     <hr>
     <h2>5. git rm</h2>
     <ul style="border: 2px solid rgb(50, 75, 107);background-color: rgb(206, 213, 228);">
+        <li>git rm=delete file from the repository+filesystem</li>
         <li>The git rm command removes a file or group of files from a Git repository.</li>
         <li>A file is removed from both your machine and the Git repository. To preserve the file on your local machine, use the –cached flag.</li>
     </ul>
     <h4>5.1 git rm –cached</h4>
         <ul style="border: 2px solid rgb(50, 75, 107);background-color: rgb(206, 213, 228);">
+            <li>Delete Files From Git Repository only</li>
             <li>The Git rm –cached flag removes a file from the staging area. </li>
             <li>The files from the working directory will remain intact. This means that you’ll still have a copy of the file locally. The file will be removed from the index tracking your Git project. </li>
         </ul>
+        <p>git rm -r folder1 -----> Remove Folder</p>
+        <p>git ls-tree -r branchName -----> show current branch tracking files </p>
     <hr>
-        <img src="">
+        <hr>
+            <h7 class="text-danger" > <strong> Before Deleting File</strong>   </h7>
+        <br>
+        <hr>
+        <img src="./static/images/RM2.jpg">
+        <hr>
+            <h7 class="text-primary" ><strong>Deleting Style.cs</strong></h7>
+         <br>
+         <hr>
+        <img src="./static/images/rm7.png">
+        <hr>
+        <hr>
+            <h7 class="text-success" ><strong>Deleted</strong></h7>
+         <br>
+         <hr>
+        <img src="./static/images/RM3.jpg">
     <hr>
     <h2>6. git clone</h2>
     <ul style="border: 2px solid rgb(236, 206, 36);background-color: rgb(188, 214, 176);">
