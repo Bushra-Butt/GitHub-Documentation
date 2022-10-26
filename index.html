@@ -98,7 +98,7 @@
       <li>It is possible to commit changes directly, skipping the staging environment. The -a option will automatically stage every changed, already tracked file.</li>
     </ul>
     <hr>
-    <img src="./static/images/commit.jpg">
+     <img src="./static/images/commit.jpg">
     <hr>
     <h2>8. git Push</h2>
     <ul style="border: 2px solid rgb(190, 221, 203);background-color: rgb(239, 241, 210);">
@@ -106,41 +106,94 @@
         <li>Establish A link between remote and local by using git remote add origin link</li>
     </ul>
     <hr>
-    <img src="./static/images/gitPushandLink.jpg">
+        <img src="./static/images/gitPushandLink.jpg">
     <hr>
-    <p class="text-success">Because of currently we don't have any branch so we use command git push --set-upstream origin master for Pushing</p>
+        <p class="text-success">Because of currently we don't have any branch so we use command git push --set-upstream origin master for Pushing</p>
     <hr>
-    <img src="./static/images/gitpushup.jpg">
+        <img src="./static/images/gitpushup.jpg">
     <hr>
     <h2>9. git Pull</h2>
         <ul style="border: 2px solid rgb(110, 80, 219);background-color: rgb(234, 236, 195);">
             <li>The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.</li>
         </ul>
-    <img src="./static/images/gitpull.png">
-    <h2>Merge Conflict</h2>
-    <p> A merge conflict is an event that takes place when Git is unable to automatically resolve differences in code between two commits</p> 
-    <p>Git can merge the changes automatically only if the commits are on different lines or branches but in merge conflict it is on same line so you have to tell which line you want to keep</p>
-    <img src="">
-    <h2>git branch</h2>
-    <p>The git branch command allows you to create, list, rename and delete branches. Many operations on branches are applied by git checkout and git merge command.</p>
-    <p>This command show the current branch in which you are working</p>
-    <img src="">
-    <h2>git checkout</h2>
-    <p>The git checkout command lets you navigate between the branches created by git branch . Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.</p>
-    <h3>git checkout -b (if you want to create a branch and checkout the branch simultaneously)</h3>
-    <p>The easiest way to create a Git branch is to use the “git checkout” command with the “-b” option for a new branch. Next, you just have to specify the name for the branch you want to create. 
-    To achieve that, you will run the “git checkout” command with the “-b” option and add “feature” as the branch name.</p>
-    <img src="">
-    <h2>Creating a Branch from Another Branch</h2>
-    <img src="">
-    <h2>git merge</h2>
-    <p>Merge different branches</p>
-    <p>Join two or more development histories together</p>
-    <p>Merge branch into a Main branch after changes has committed</p>
-    <img src="">
-    <h2>Delete Branch</h2>
-    <p>git branch -D branchName used to delete the branch</p>
-    <img src="">
+    <hr>
+        <img src="./static/images/gitpull.png">
+    <hr>
+    <h2>10. Merge Conflict</h2>
+        <ul style="border: 2px solid rgb(95, 175, 168);background-color: rgb(182, 248, 243);">
+            <li> A merge conflict is an event that takes place when Git is unable to automatically resolve differences in code between two commits</li> 
+            <li>Git can merge the changes automatically only if the commits are on different lines or branches but in merge conflict it is on same line so you have to tell which line you want to keep</li>
+        </ul>
+    <hr>
+        <h7>Accept AnyOne by clicking on Accept (Highlighted in grey)</h7>
+        <hr>
+            <img src="./static/images/MergeConflict2.jpg">
+        <hr>
+            <h6 class="text-primary" style="text-align:center;">After Accept click on Complete Merge</h6>
+        <hr>
+          <h6 class="text-success">After Accepting the final result is in In coming</h6>
+          <hr>
+            <img src="./static/images/Conflict2.jpg">
+           <hr>
+        <hr>
+        <h4 class="text-info">Comit Changes After Merge</h4>
+        <hr>
+            <img src="./static/images/Con3.jpg">
+        <hr>
+    <h2>11. git branch</h2>
+        <ul style="border: 2px solid rgb(250, 177, 43);background-color: rgb(236, 201, 154);">
+            <li>The git branch command allows you to create, list, rename and delete branches. Many operations on branches are applied by git checkout and git merge command.</li>
+            <li>This command show the current branch in which you are working</li>
+        </ul>
+    <hr>
+      <img src="./static/images/gitbranch.jpg">
+    <hr>
+        <h2>12. git checkout</h2>
+        <ul style="border: 2px solid rgb(250, 43, 164);background-color: rgb(202, 165, 186);">
+            <li>The git checkout command lets you navigate between the branches created by git branch . </li>
+            <li>Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.</li>
+        </ul>
+        <hr>
+            <img src="./static/images/gitbranchcheckout.png">
+        <br>
+        <ol>
+             <li>* ----> shows the current working brach</li>
+             <li>git branch ----> shows all the branches</li>
+             <li>git checkout branchName -----> to move to that branch</li>
+             <li>git branch nameOfnewBranch----> make new branch of specified name</li>
+        </ol>
+        <h7 class="text-info">git checkout -b (if you want to create a branch and checkout the branch simultaneously)</h7>
+        <hr>
+    <h7 class="text-primary">Creating a Branch from Another Branch</h7>
+        <hr>
+        <img src="./static/images/branches.png">
+        <br>
+        <ol>
+            <li>Furtherdivided1 is a new branch which we create from Furtherdivided</li>
+        </ol>
+    <hr>
+    <h2>12. git merge</h2>
+        <ul style="border: 2px solid rgb(238, 41, 57);background-color: rgb(209, 154, 168);">
+            <li>Merge different branches</li>
+            <li>Join two or more development histories together</li>
+            <li>Merge branch into a Main branch after changes has committed</li>
+        </ul>
+        <hr>
+            <img src="./static/images/merge.jpg">
+            <br>
+            <ol>
+                <li>First move to that branch where you want to merge </li>
+                <li>And comit of each branch must perform</li>
+                <li>There are two ways three way and fast forward used you can on/off technique</li>
+            </ol>
+        <hr>
+        <h2>13. Delete Branch</h2>
+        <ul style="border: 2px solid rgb(47, 209, 115);background-color: rgb(236, 219, 118);">
+            <li>git branch -D branchName used to delete the branch</li>
+        </ul>
+        <hr>
+            <img src="./static/images/Delete.jpg">
+        <hr>
     <h1 style="text-align:center;">Github</h1>
     <br>
     <hr>
@@ -161,26 +214,26 @@
     <img src="./static/images/Notifications.png" alt="Notification">
     <br>
     <hr>
-    <h2 style="text-align:center;border: 2px solid rgb(132, 235, 175);background-color: rgb(239, 241, 210);">How to create repository</h2>
-    <img src="./static/images/PrivatePublic.png" alt="Create Repo 1" >
+        <h2 style="text-align:center;border: 2px solid rgb(132, 235, 175);background-color: rgb(239, 241, 210);">How to create repository</h2>
+        <img src="./static/images/PrivatePublic.png" alt="Create Repo 1" >
     <br>
     <hr>
     <img src="./static/images/CReateRepo.png" alt="Create Repo 2">
     <hr>
-    <h7 class="text-success">Next you'll see this screen</h7>
+     <h7 class="text-success">Next you'll see this screen</h7>
     <br>
     <hr>
     <img src="./static/images/CreateRepos3.png" alt="Create Repo 3">
     <hr>
-    <h2 style="text-align:center;border: 2px solid rgb(132, 235, 175);background-color: rgb(239, 241, 210);">Edit File At Repo GitHub directly</h2>
-    <h7>Step 1</h7>
-    <img src="./static/images/Step1.png">
+        <h2 style="text-align:center;border: 2px solid rgb(132, 235, 175);background-color: rgb(239, 241, 210);">Edit File At Repo GitHub directly</h2>
+        <h7>Step 1</h7>
+        <img src="./static/images/Step1.png">
     <hr>
-    <h7>Step 2</h7>
-    <img src="./static/images/Step2.png">
+        <h7>Step 2</h7>
+        <img src="./static/images/Step2.png">
     <hr>
-    <h7>Step 3</h7>
-    <img src="./static/images/Step4.png">
+        <h7>Step 3</h7>
+        <img src="./static/images/Step4.png">
     <hr>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
